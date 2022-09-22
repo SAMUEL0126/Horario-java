@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Persona">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Dates" />
+          <Menu mnemonicParsing="false" text="Accion">
+            <items>
+              <MenuItem fx:id="optHorario" mnemonicParsing="false" onAction="#ingresarHorario" text="horarios" />
+              <MenuItem fx:id="ingresarCurso" mnemonicParsing="false" onAction="#ingresarCurso" text="Courses" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Exit" />
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="374.0" fitWidth="600.0" layoutX="-1.0" layoutY="27.0" opacity="0.34">
+         <image>
+            <Image url="@../../bin/application/images/Home.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

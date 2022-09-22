@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="741.0"  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Registro">
+   <children>
+      <ImageView fitHeight="516.0" fitWidth="273.0" layoutX="470.0" opacity="0.24">
+         <image>
+            <Image url="@images/pexels-olya-kobruseva-5417621.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="524.0" fitWidth="273.0" layoutY="-9.0" opacity="0.23">
+         <image>
+            <Image url="@images/pexels-pixabay-417171.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="115.0" layoutX="313.0" layoutY="71.0">
+         <image>
+            <Image url="@images/userHome.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="inputDocu" layoutX="186.0" layoutY="197.0" />
+      <TextField fx:id="inputName" layoutX="186.0" layoutY="261.0" />
+      <TextField fx:id="inputAge" layoutX="438.0" layoutY="261.0" />
+      <TextField fx:id="inputLastName" layoutX="438.0" layoutY="197.0" />
+      <ComboBox fx:id="inputType" layoutX="185.0" layoutY="329.0" prefWidth="150.0" />
+      <Label layoutX="115.0" layoutY="201.0" text="Document:" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="265.0" text="Name:">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="406.0" layoutY="261.0" text="Age:">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="201.0" text="Last name:">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="333.0" text="Type:">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="306.0" layoutY="10.0" prefHeight="69.0" prefWidth="150.0" text="Register">
+         <font>
+            <Font name="Comic Sans MS Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputEmail" layoutX="439.0" layoutY="328.0" />
+      <Label layoutX="401.0" layoutY="332.0" text="Email:">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRegister" layoutX="345.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#crearRegistro" style="-fx-background-color: #58DCF9;" text="Register">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text fx:id="txtDoc" layoutX="203.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+      <Text fx:id="txtName" layoutX="203.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+      <Text fx:id="txtLastN" layoutX="455.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+      <Text fx:id="txtAge" layoutX="455.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+      <Text fx:id="txtEmail" layoutX="455.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+      <Text fx:id="txtType" layoutX="203.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="115.00000138580799" />
+   </children>
+</AnchorPane>
